@@ -9,6 +9,7 @@ module.exports = withNativeFederation({
   exposes: {
     "./Shop": "./projects/mfe1/src/app/components/shop/shop.component.ts",
     "./Work": "./projects/mfe1/src/app/components/work/work.component.ts",
+    "./Button": "./projects/mfe1/src/app/components/button/button.component.ts",
     "./Component": "./projects/mfe1/src/app/app.component.ts",
     // "./routes": "./projects/mfe1/src/app/app.routes.ts",
   },
