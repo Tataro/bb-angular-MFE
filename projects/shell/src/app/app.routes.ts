@@ -9,8 +9,13 @@ export const routes: Routes = [
     pathMatch: 'full',
   },
   {
-    path: 'mfe1',
+    path: 'work',
     loadComponent: () =>
-      loadRemoteModule('mfe1', './Component').then((m) => m.AppComponent),
+      loadRemoteModule('mfe1', './Work').then((m) => m.WorkComponent),
   },
+  //   {
+  //     path: 'mfe1',
+  //     loadComponent: () =>
+  //       loadRemoteModule('mfe1', './routes').then((m) => m.APP_ROUTES),
+  //   },
 ];
