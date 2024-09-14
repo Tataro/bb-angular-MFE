@@ -31,5 +31,10 @@ export class HomeComponent implements OnInit {
     );
     btnRef.instance.type = 'submit';
     btnRef.instance.label = 'Click me';
+    btnRef.instance.className = 'btn-primary';
+
+    btnRef.instance.onChange.subscribe(() => {
+      console.log('Button clicked!');
+    });
   }
 }
